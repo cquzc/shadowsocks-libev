@@ -3,7 +3,7 @@ Shadowsocks libev image with obfs.
 
 https://github.com/shadowsocks/shadowsocks-libev
 
-Latest Version: v3.2.3
+Latest Version: v3.3.4
 
 Useage:
 
