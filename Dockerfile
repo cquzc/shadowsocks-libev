@@ -1,7 +1,7 @@
 FROM alpine
-MAINTAINER HyperApp <hyperappcloud@gmail.com>
+MAINTAINER cquzc
 
-ARG SS_VER=3.2.3
+ARG SS_VER=3.3.4
 ARG SS_OBFS_VER=0.0.5
 
 RUN set -ex && \
