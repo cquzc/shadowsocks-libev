@@ -11,7 +11,7 @@ Useage:
 version: '2'
 services:
   shadowsocks:
-    image: xiocode/shadowsocks-libev
+    image: cquzc/shadowsocks-libev
     ports:
       - "10010:8388/tcp"
       - "10010:8388/udp"
