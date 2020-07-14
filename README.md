@@ -16,8 +16,8 @@ services:
       - "10010:8388/tcp"
       - "10010:8388/udp"
     environment:
-      - METHOD="chacha20"
-      - PASSWORD="1234567890"
-      - OBFS_OPTS="obfs=http;obfs-host=www.bing.com"
+      - METHOD="xchacha20-ietf-poly1305"
+      - PASSWORD="123456"
+      - OBFS_OPTS="obfs=http;obfs-host=microsoft.com"
     restart: always
 ```
